@@ -131,7 +131,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(OPENCV_310_DIR)\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_core310d.lib;opencv_highgui310d.lib;opencv_imgproc310d.lib;opencv_ts310d.lib;opencv_imgcodecs310d.lib;opencv_video310d.lib;opencv_videoio310d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_core310.lib;opencv_highgui310.lib;opencv_imgproc310.lib;opencv_ts310.lib;opencv_imgcodecs310.lib;opencv_video310.lib;opencv_videoio310.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
